@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+   border: 2px solid black;
+   
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin: 5px;
+   
+    list-style-type: none;
+    font-size: 24px;
+   
+}
+.nav > li{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content:space-between;
+    align-items: right;
+    cursor: pointer;
+}
+#h1{
+    padding-right: 690px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
